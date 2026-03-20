@@ -1,11 +1,117 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-    <meta charset="UTF-8">
-    <title>谷中歯科クリニック</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>谷中歯科クリニック</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      line-height: 1.7;
+      color: #333;
+      background: #f7f9fc;
+    }
+    header {
+      background: #2f6fad;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 40px;
+    }
+    header p {
+      margin-top: 10px;
+      font-size: 18px;
+    }
+    nav {
+      background: #1f4f7d;
+      padding: 12px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 16px;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+    .card {
+      background: white;
+      padding: 25px;
+      margin-bottom: 20px;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+    h2 {
+      color: #2f6fad;
+      margin-top: 0;
+    }
+    .button {
+      display: inline-block;
+      background: #2f6fad;
+      color: white;
+      padding: 12px 22px;
+      border-radius: 8px;
+      text-decoration: none;
+      margin-top: 10px;
+    }
+    footer {
+      background: #1f4f7d;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
 </head>
 <body>
-    <h1>谷中歯科クリニックへようこそ</h1>
-    <p>ここはテストページです</p>
+  <header>
+    <h1>谷中歯科クリニック</h1>
+    <p>地域に寄り添う歯科医療と先進的な取り組み</p>
+  </header>
+
+  <nav>
+    <a href="#about">医院案内</a>
+    <a href="#service">診療内容</a>
+    <a href="#access">アクセス</a>
+    <a href="#contact">お問い合わせ</a>
+  </nav>
+
+  <div class="container">
+    <section id="about" class="card">
+      <h2>医院案内</h2>
+      <p>谷中歯科クリニックは、患者さま一人ひとりに合わせた丁寧な診療を大切にしています。安心して通っていただける歯科医院を目指しています。</p>
+    </section>
+
+    <section id="service" class="card">
+      <h2>診療内容</h2>
+      <p>一般歯科 / 予防歯科 / 自費診療 / カウンセリング など</p>
+      <p>患者さまのお悩みに合わせて、わかりやすくご説明しながら診療を行います。</p>
+    </section>
+
+    <section id="access" class="card">
+      <h2>アクセス</h2>
+      <p>住所：ここに住所を入れる</p>
+      <p>電話：ここに電話番号を入れる</p>
+      <p>診療時間：ここに診療時間を入れる</p>
+    </section>
+
+    <section id="contact" class="card">
+      <h2>お問い合わせ</h2>
+      <p>ご予約・ご相談はお電話または今後追加する予約フォームからお願いいたします。</p>
+      <a class="button" href="tel:0000000000">電話する</a>
+    </section>
+  </div>
+
+  <footer>
+    <p>© 谷中歯科クリニック All Rights Reserved.</p>
+  </footer>
 </body>
 </html>
